@@ -412,6 +412,12 @@ filter: none;
     margin-left: 4rem;
 }
 
+.project_header h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
 .project_h1{
     color: white;
 }

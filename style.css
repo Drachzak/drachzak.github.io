@@ -452,10 +452,10 @@ body {
     filter: grayscale();
     -webkit-filter: grayscale();
     margin-top: 5rem;
-    margin-left: 20rem;
+    margin-left: 31rem;
   display: block;
   border-radius: 2rem;
-  width: 50rem;
+  width: 30rem;
   object-fit: cover; 
   transition: var(--transition);   
 }
@@ -501,6 +501,128 @@ body {
 
 .carousel-button.next {
   right: 20rem;
+}
+
+
+.project_item1{
+    margin-left: 4rem;
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+}
+
+.container_list{
+    margin-right: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project_item1:hover{
+    transition: var(--transition);
+    transform: scale(1.1);
+}
+
+.project_item1 img{
+    width: 20rem;
+}
+
+.container_list2 {
+    margin-left: 4rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.project_item2{
+    border: 1px solid white;
+    padding: 2rem;
+    margin-left: 40rem;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+}
+
+.project_item2:hover{
+    transition: var(--transition);
+    transform: scale(1.1);
+}
+
+.project_item2 img{
+    width: 20rem;
+}
+
+.container_list3{
+    margin-right: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project_item3{
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+}
+
+.project_item3:hover{
+    transition: var(--transition);
+    transform: scale(1.1);
+}
+
+.project_item3 img{
+    width: 20rem;
+}
+
+.container_list4{
+    margin-left: 4rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.project_item4{
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+}
+
+.project_item4:hover{
+    transition: var(--transition);
+    transform: scale(1.1);
+}
+
+.project_item4 img{
+    width: 20rem;
+}
+
+.detail_project h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: crimson;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.detail_span{
+    color: white;
 }
   
 

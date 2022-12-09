@@ -382,30 +382,14 @@ header .desc_saya {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.experience_item2 {
-    font-weight: 600;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    display: grid;
-    font-weight: 600;
-    gap: 1rem;
-    padding: 2rem;
-    margin-left: 4rem;
-    margin-top: 2rem;
-}
 
-.experience_item2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
 .normalinimg {
     filter: grayscale();
     -webkit-filter: grayscale();
     width: 35rem;
     height: 20rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
     border-radius: 2rem;
     transition: var(--transition);
 }
@@ -508,7 +492,7 @@ header .desc_saya {
 
 .carousel-button {
     z-index: 2;
-    background: none;
+    background: none;   
     border: none;
     font-size: 3rem;
     top: 50%;
@@ -516,13 +500,11 @@ header .desc_saya {
     color: white;
     border-radius: .25rem;
     padding: 0 .5rem;
-    background-color: rgba(0, 0, 0, .1);
 }
 
 .carousel-button:hover {
     transition: var(--transition);
     color: crimson;
-    background-color: rgba(0, 0, 0, .2);
 }
 
 .carousel-button.prev {
@@ -548,196 +530,19 @@ header .desc_saya {
 }
 
 .container_list {
-    margin-right: 4rem;
-    display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.project_item1:hover {
+/* .project_item1:hover {
     transition: var(--transition);
-    transform: scale(1.1);
-}
+    transform: scale(1.0);
+} */
 
 .project_item1 img {
     width: 20rem;
 }
 
-.container_list2 {
-    margin-left: 4rem;
-    display: flex;
-    justify-content: flex-start;
-}
 
-.project_item2 {
-    border: 1px solid white;
-    padding: 2rem;
-    margin-left: 40rem;
-    border-radius: 0.8rem;
-    background-color: transparent;
-    color: white;
-    margin: 2rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    justify-items: center;
-}
-
-.project_item2:hover {
-    transition: var(--transition);
-    transform: scale(1.1);
-}
-
-.project_item2 img {
-    width: 20rem;
-}
-
-.container_list3 {
-    margin-right: 4rem;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.project_item3 {
-    border: 1px solid white;
-    padding: 2rem;
-    border-radius: 0.8rem;
-    background-color: transparent;
-    color: white;
-    margin: 2rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    justify-items: center;
-}
-
-.project_item3:hover {
-    transition: var(--transition);
-    transform: scale(1.1);
-}
-
-.project_item3 img {
-    width: 20rem;
-}
-
-.container_list4 {
-    margin-left: 4rem;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.project_item4 {
-    border: 1px solid white;
-    padding: 2rem;
-    border-radius: 0.8rem;
-    background-color: transparent;
-    color: white;
-    margin: 2rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    justify-items: center;
-}
-
-.project_item4:hover {
-    transition: var(--transition);
-    transform: scale(1.1);
-}
-
-.project_item4 img {
-    width: 20rem;
-}
-
-.detail_project h1 {
-    font-family: 'Bungee Inline', cursive;
-    color: crimson;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 4rem;
-}
-
-.detail_span {
-    color: white;
-}
-
-.container_list5 {
-    margin-left: 4rem;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.project_item5 {
-    border: 1px solid white;
-    padding: 2rem;
-    border-radius: 0.8rem;
-    background-color: transparent;
-    color: white;
-    margin: 2rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    justify-items: center;
-}
-
-.project_item5:hover {
-    transition: var(--transition);
-    transform: scale(1.1);
-}
-
-.project_item5 img {
-    width: 20rem;
-}
-
-.container_list6 {
-    margin-right: 4rem;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.project_item6 {
-    border: 1px solid white;
-    padding: 2rem;
-    border-radius: 0.8rem;
-    background-color: transparent;
-    color: white;
-    margin: 2rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    justify-items: center;
-}
-
-.project_item6:hover {
-    transition: var(--transition);
-    transform: scale(1.1);
-}
-
-.project_item6 img {
-    width: 20rem;
-}
-
-.container_list7 {
-    margin-left: 4rem;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.project_item7 {
-    border: 1px solid white;
-    padding: 2rem;
-    border-radius: 0.8rem;
-    background-color: transparent;
-    color: white;
-    margin: 2rem;
-    object-fit: cover;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    justify-items: center;
-}
-
-
-.project_item7:hover {
-    transition: var(--transition);
-    transform: scale(1.1);
-}
-
-.project_item7 img {
-    width: 20rem;
-}
 
 
 /* contact */
@@ -769,7 +574,7 @@ header .desc_saya {
 }
 
 .container-logo :hover{
-    ransition: var(--transition);
+    transition: var(--transition);
     transform: scale(1.1);
 }
 
@@ -793,10 +598,6 @@ footer {
         display: none;
     }
 
-    .toggle {
-        display: block;
-        width: 20px;
-    }
 
     .navbar-item {
         display: none;
@@ -815,8 +616,6 @@ footer {
     .navbar-button {
         font-size: 2rem;
     }
-
-
 
     .nama_saya h1 {
         font-size: 4rem;
@@ -854,15 +653,12 @@ footer {
         height: 15rem;
     }
 
-    .experience_item2{
-        grid-template-columns: auto;
-        margin-left: 0.5rem;
-    }
 
     .normalinimg{
         width: 25rem;
         height: 15rem;
         margin-left: 0.2rem;
+
     }
 
     .project_header{
@@ -887,12 +683,307 @@ footer {
         gap: 1rem;
     }
 
-    .container_list, .container_list2, .container_list3, .container_list4, .container_list5, .container_list6, .container_list7{
-        margin: 0;
+    
+
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-link {
+        font-size: 2rem;
+    }
+
+    .header_img {
+        display: none;
     }
 
 
+    .navbar-item {
+        display: none;
+    }
 
+    header {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+    .brand {
+        font-size: 3rem;
+    }
+
+    .navbar-button {
+        font-size: 2rem;
+    }
+
+    .nama_saya h1 {
+        font-size: 4rem;
+    }
+
+    .text_about {
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .desc_about{
+        font-size: 1rem;
+    }
+
+    .img_about {
+        display: none;
+    }
+
+    .intro{
+        font-size: 0.5rem;
+    }
+
+    .experience_header{
+        margin-left: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .experience_item{
+        grid-template-columns: auto;
+    }
+
+    .skuyngajarimg{
+        margin-left: 0.2rem;
+        width: 20rem;
+        height: 10rem;
+    }
+
+
+    .normalinimg{
+        width: 20rem;
+        height: 10rem;
+        margin-left: 0.2rem;
+
+    }
+
+    .project_header{
+        font-size: 3rem;
+    }
+
+    
+
+    .project_header h4{
+        font-size: 2rem;
+    }
+
+    .slide>img{
+        width: 15rem;
+        height: 30rem;
+    }
+
+    .container-slide{
+        width: 15rem;
+        height: 30rem;
+    }
+
+    .carousel{
+        gap: 0.5rem;
+    }
+
+    .project_item1 img{
+        width: 15rem;
+    }
+
+    .carousel-button.next{
+        right: 30rem;
+    }
+    .carousel-button.prev{
+        left: 25rem;
+    }
+    .carousel-button{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .navbar-link {
+        font-size: 2rem;
+    }
+
+    .header_img {
+        display: none;
+    }
+
+
+    .navbar-item {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+
+    .brand {
+        font-size: 3rem;
+    }
+
+    .navbar-button {
+        font-size: 2rem;
+    }
+
+    .nama_saya h1 {
+        font-size: 4rem;
+    }
+
+    .text_about {
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .desc_about{
+        font-size: 1rem;
+    }
+
+    .img_about {
+        display: none;
+    }
+
+    .intro{
+        font-size: 0.5rem;
+    }
+
+    .experience_header{
+        margin-left: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .experience_item{
+        grid-template-columns: auto;
+    }
+
+    .skuyngajarimg{
+        margin-left: 0.2rem;
+        width: 20rem;
+        height: 10rem;
+    }
+
+
+    .normalinimg{
+        width: 20rem;
+        height: 10rem;
+        margin-left: 0.2rem;
+
+    }
+
+    .project_header{
+        font-size: 3rem;
+    }
+
+    .project_header h4{
+        font-size: 2rem;
+    }
+
+    .slide>img{
+        width: 15rem;
+        height: 30rem;
+    }
+
+    .container-slide{
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .carousel{
+        gap: 1rem;
+    }
+    .container_list{
+        display: flex;
+    }
+
+    .carousel-button{
+        padding: 0;
+    }
+    .carousel-button.next{
+        margin-right: 3rem;
+    }
+    .project_item1 img{
+        width: 15rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .header_img{
+        margin-right: 10rem;
+    }
+
+    .img_about{
+        margin-right: 15rem;
+    }
+    .text_about{
+        margin-left: 5rem;
+    }
+    .skuyngajarimg{
+        width: 25rem;
+        height: 15rem;
+        margin-right: 2rem;
+    }
+    .normalinimg{
+        width: 25rem;
+        height: 15rem;
+        margin-right: 2rem;
+    }
+    .experience_header{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 688px){
+    .navbar-button{
+        display: none;
+    }
+    .slide img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .header_img{
+        width: 15rem;
+        height: 25rem;
+        margin-right: 3rem;
+        margin-left: 2rem;
+    }
+
+    .nama_saya{
+        font-size: 1.5rem;
+    }
+    .desc_saya{
+        font-size: 0.5rem;
+    }
+    .img_about{
+        display: none;
+    }
+
+    .experience_header{
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .experience_item{
+        grid-template-columns: auto;
+    }
+
+    .skuyngajarimg{
+        margin-left: 0.2rem;
+        width: 25rem;
+        height: 15rem;
+    }
+
+
+    .normalinimg{
+        width: 25rem;
+        height: 15rem;
+        margin-left: 0.2rem;
+
+    }
 
 }
 

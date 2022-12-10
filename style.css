@@ -573,6 +573,10 @@ header .desc_saya {
     font-size: 2rem;
 }
 
+.container-logo a {
+    text-decoration: none;
+}
+
 .container-logo :hover{
     transition: var(--transition);
     transform: scale(1.1);
@@ -982,7 +986,6 @@ footer {
         width: 25rem;
         height: 15rem;
         margin-left: 0.2rem;
-
     }
 
 }

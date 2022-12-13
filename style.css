@@ -169,12 +169,12 @@ button {
 }
 
 .header_img {
-    width: 10rem;
-    height: 20rem;
+    width: 15rem;
+    height: 25rem;
     filter: grayscale();
     -webkit-filter: grayscale();
     transform: rotate(10deg);
-    margin-left: 10rem;
+    margin-left: 5rem;
     border-radius: 2rem;
     box-shadow: 0px 0px 30px 3px rgba(222, 150, 150, 0.6);
     -webkit-box-shadow: 0px 0px 30px 3px rgba(222, 150, 150, 0.6);
@@ -260,8 +260,8 @@ header {
 }
 
 .img_about img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     margin-left: 10rem;
 }
 

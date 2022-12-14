@@ -38,6 +38,7 @@ body {
     z-index: 1;
 }
 
+
 .brand {
     display: flex;
     flex-direction: row;
@@ -524,6 +525,10 @@ header {
     justify-content: center;
 }
 
+.line{
+    width: 100%;
+}
+
 /* .project_item1:hover {
     transition: var(--transition);
     transform: scale(1.0);
@@ -584,7 +589,7 @@ footer {
 
 
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .navbar-link {
         font-size: 2rem;
     }
@@ -613,7 +618,7 @@ footer {
     }
 
     .nama_saya h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .text_about {
@@ -701,7 +706,7 @@ footer {
 
     header {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 3rem;
+        margin-left: 1rem;
         margin-top: 1rem;
     }
 
@@ -713,8 +718,8 @@ footer {
         font-size: 2rem;
     }
 
-    .nama_saya h1 {
-        font-size: 4rem;
+    .nama_saya {
+        font-size: 0.5rem;
     }
 
     .text_about {
@@ -736,8 +741,10 @@ footer {
 
     .experience_header{
         margin-left: 2rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
+
+
 
     .experience_item{
         grid-template-columns: auto;
@@ -745,8 +752,8 @@ footer {
 
     .skuyngajarimg{
         margin-left: 0.2rem;
-        width: 20rem;
-        height: 10rem;
+        width: 10rem;
+        height: 5rem;
     }
 
 
@@ -794,7 +801,7 @@ footer {
     .carousel-button{
         padding: 0;
     }
-}
+} */
 
 @media screen and (max-width: 414px){
     .navbar-link {
@@ -804,6 +811,9 @@ footer {
     .header_img {
         display: none;
     }
+    .line{
+        width: 100%;
+    }
 
 
     .navbar-item {
@@ -812,8 +822,6 @@ footer {
 
     header {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 3rem;
-        margin-top: 1rem;
     }
 
     .brand {
@@ -847,7 +855,7 @@ footer {
 
     .experience_header{
         margin-left: 2rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .experience_item{
@@ -856,8 +864,8 @@ footer {
 
     .skuyngajarimg{
         margin-left: 0.2rem;
-        width: 15rem;
-        height: 5rem;
+        width: 20rem;
+        height: 10rem;
     }
 
     .project_header{
@@ -897,14 +905,12 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .header_img{
         margin-right: 10rem;
     }
 
-    /* .img_about{
-        margin-right: 15rem;
-    } */
+    
     .text_about{
         margin-left: 5rem;
     }
@@ -921,9 +927,9 @@ footer {
     .experience_header{
         margin-left: 5rem;
     }
-}
+} */
 
-@media screen and (max-width: 688px){
+/* @media screen and (max-width: 688px){
     .navbar-button{
         display: none;
     }
@@ -932,15 +938,16 @@ footer {
         height: 25rem;
     }
 
+    .Wrapper{
+        width: 100%;
+    }
+
     .header_img{
-        width: 15rem;
-        height: 25rem;
-        margin-right: 3rem;
-        margin-left: 2rem;
+        display: none;
     }
 
     .nama_saya{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .desc_saya{
         font-size: 0.5rem;
@@ -951,7 +958,7 @@ footer {
 
     .experience_header{
         margin-left: 3rem;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .experience_item{
@@ -960,8 +967,8 @@ footer {
 
     .skuyngajarimg{
         margin-left: 0.2rem;
-        width: 25rem;
-        height: 15rem;
+        width: 20rem;
+        height: 10rem;
     }
 
 
@@ -971,6 +978,6 @@ footer {
         margin-left: 0.2rem;
     }
 
-}
+} */
 
 /* end project */
